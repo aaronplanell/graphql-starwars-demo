@@ -1,0 +1,23 @@
+{
+  "name": "graphql-starwars-demo",
+  "version": "1.0.0",
+  "description": "Example extracted from https://github.com/graphql/graphql-js/tree/master/src/__tests__ developed by Lee Byron",
+  "main": "lib/starWarsApp.js",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "start": "node lib/starWarsApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee Byron, Aaron Planell",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphql": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
