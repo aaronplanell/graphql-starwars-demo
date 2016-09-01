@@ -15,7 +15,7 @@ $ npm start
 ### Modifying the code
 If you need to modify the code, remember compile it before before run it:
 ```sh
-$ npm compile
+$ npm run-script compile
 $ npm start
 ```
 
